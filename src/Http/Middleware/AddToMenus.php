@@ -16,7 +16,6 @@ class AddToMenus
 
         $menu = Menu::get('topnav');
         $menu->add(__('Foxley inventory New Telmix'), ['route' => 'package.skeleton.tab.index']);
-        dd("qweqe")
 
         // Add a option in the admin menu to point to our page
         $menu = Menu::get('sidebar_admin')->first();
