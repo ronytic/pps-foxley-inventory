@@ -15,13 +15,13 @@ class AddToMenus
         // Add a menu option to the top to point to our page
 
         $menu = Menu::get('topnav');
-        $menu->add(__('Foxley inventory New Telmix'), ['route' => 'package.foxleyinventory.tab.index']);
+        $menu->add(__('Foxley inventory 2'), ['route' => 'package.foxleyinventory.tab.index']);
 
         // Add a option in the admin menu to point to our page
         $menu = Menu::get('sidebar_admin')->first();
 
         // Add our menu item to the top nav
-        $menu->add(__('Foxley inventory 2 New Telmix'), [
+        $menu->add(__('Foxley inventory 2'), [
             'route' => 'package.foxleyinventory.index',
             'icon' => 'fa-user',
         ]);
