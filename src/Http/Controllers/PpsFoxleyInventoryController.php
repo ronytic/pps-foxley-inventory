@@ -14,7 +14,7 @@ class PpsFoxleyInventoryController extends Controller
 {
     public function index()
     {
-        echo "hola"
+        dd("hola");
         return view('pps-foxley-inventory::index');
     }
 
